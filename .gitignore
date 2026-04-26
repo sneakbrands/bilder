@@ -1,0 +1,25 @@
+# Repo enthaelt nur die beiden Quell-Bildordner.
+# Alles andere im Eltern-Ordner bleibt aussen vor.
+
+# Default: alles ignorieren
+/*
+
+# Ausnahmen: Bilder-Ordner
+!/mit Haken/
+!/ohne Haken/
+!/.gitignore
+!/README.md
+
+# Innerhalb der Bilder-Ordner: Tagesordner mit generierten Outputs ausschliessen
+**/2026-*/
+**/2027-*/
+**/2028-*/
+**/generated-product-variants/
+**/conversion-log.txt
+**/variant-generation-log.txt
+**/debug-masks/
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
